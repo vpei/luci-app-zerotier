@@ -67,7 +67,7 @@ return view.extend({
 			]);
 		}
 
-		s = m.section(form.NamedSection, 'global', 'config');
+		s = m.section(form.NamedSection, 'sample_config', 'config');
 
 		o = s.option(form.Flag, 'enabled', _('Enable'));
 		o.default = o.disabled;
